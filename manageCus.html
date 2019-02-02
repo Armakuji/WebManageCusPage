@@ -1,0 +1,221 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./node_modules/bulma/css/bulma.css"
+    />
+  </head>
+  <body>
+    <section class="hero is-dark is-small">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active"> Home </a>
+
+                <span class="navbar-item">
+                  <a class="button is-primary is-inverted">
+                    <span class="icon"> <i class="fab fa-github"></i> </span>
+                    <span>Log Out</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns ">
+            <div class="column is-one-quarter">
+              <figure class="image is-128x128">
+                <img src="./pic/logo.PNG" />
+              </figure>
+            </div>
+
+            <div class="column ">
+              <br />
+
+              <h1 class="title">บันทึกลูกค้า</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="columns">
+        <div class="column has-background-grey-lighter">
+          <h1 class="title">ลูกค้าเก่า</h1>
+          <div class="columns">
+            <div class="column is-four-fifths">
+              <div class="control">
+                <input class="input" type="text" placeholder="ค้นหาลูกค้า" />
+              </div>
+            </div>
+            <div class="column"><a class="button is-primary">ค้นหา</a></div>
+          </div>
+
+          <br />
+
+          <div class="columns is-centered">
+            <table class="table is-responsive is-bordered is-fullwidth">
+              <thead>
+                <tr>
+                  <th>ลำดับ</th>
+                  <th>ชื่อจริง - นามสกุล</th>
+                  <th>เบอร์ติดต่อ</th>
+                  <th>รายละเอียด</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>นิติพล ชิงธงไชย</td>
+                  <td>095-5528406</td>
+
+                  <td>
+                    <div class="button has-text-link"><u> คลิก </u></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br />
+          <br />
+
+          <div class="columns">
+            <div class="column">
+              <label class="label">ประเภทการทำธุรกรรม</label>
+            </div>
+
+            <div class="column is-two-thirds">
+              <div class="select ">
+                <select>
+                  <option>ลูกค้าซื้อรถ</option>
+                  <option>ลูกค้าขายรถ</option>
+                  <option>ลูกค้าต่อทะเบียน</option>
+                  <option>ลูกค้าซ่อมรถ</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <div class="columns is-centered">
+            <div class="control">
+              <button class="button  is-fullwidth is-link">ยืนยัน</button>
+            </div>
+
+            &nbsp; &nbsp;
+
+            <div class="control">
+              <button class="button is-danger">ยกเลิก</button>
+            </div>
+          </div>
+        </div>
+
+        &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <div class="column has-background-grey-lighter">
+          <h1 class="title">ลูกค้าใหม่(สมัครสมาชิก)</h1>
+          <div class="columns is-centered">
+            <div class="column is-four-fifths ">
+              <label class="label">ชื่อจริง - นามสกุล</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="ชื่อจริง - นามสกุล" />
+              </div>
+            </div>
+          </div>
+
+          <div class="columns is-centered">
+            <div class="column is-four-fifths ">
+              <label class="label"> บัตรประจำตัวประชาชน </label>
+              <div class="control">
+                <input class="input" type="text" placeholder="บัตรประจำตัวประชาชน" />
+              </div>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-one-quarter">
+              <label class="label">วัน/เดือน/ปีเกิด</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="วัน/เดือน/ปี" />
+              </div>
+            </div>
+
+            <div class="column is-one-fifth">
+              <br />
+              <a class="button is-large">
+                <span class="icon is-medium">
+                  <i class="fas fa-heading fa-2x">
+                    <img src="pic/calender.png"
+                  /></i>
+                </span>
+              </a>
+            </div>
+
+            <div class="column is-one-third">
+              <label class="label">เบอร์ติดต่อ</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="09xxxxx" />
+              </div>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-four-fifths">
+              <div class="field">
+                <label class="label">ที่อยู่</label>
+                <div class="control">
+                  <textarea class="textarea" placeholder="ที่อยู๋"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns is-centered ">
+            <div class="control">
+              <button class="button  is-fullwidth is-link">ยืนยัน</button>
+            </div>
+
+            &nbsp; &nbsp;
+
+            <div class="control">
+              <button class="button is-danger">ยกเลิก</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	</body>
+	
+	
+	<footer class="footer">
+			<div class="content has-text-centered">
+				<p>
+						โชคทวีออโต้เซลล์
+				</p>
+			</div>
+		</footer>
+</html>
