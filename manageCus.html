@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" type="text/css" href="./node_modules/bulma/css/bulma.css" />
+  <link rel="icon" href="./pic/logo.PNG">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
         <div class="container">
           <div id="navbarMenuHeroA" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item is-active"> Home </a>
+              <a class="navbar-item is-active"> หน้าหลัก </a>
 
               <span class="navbar-item">
                 <a class="button is-primary is-inverted">
@@ -31,7 +32,7 @@
     <div class="hero-head">
       <div class="container">
         <div class="columns ">
-          <div class="column is-one-fifth">
+          <div class="column is-1">
             <span class="icon">
               <i class="fas fa-home">
                 <figure class="image is-96x96">
@@ -57,12 +58,15 @@
 
     <div class="container">
       <div class="columns">
+       
         <div class="column has-background-grey-lighter">
-          <h1 class="title">ลูกค้าเก่า</h1>
+            <br>
+          <h1 class="title ">ลูกค้าเก่า</h1>
           <div class="columns">
             <div class="column is-four-fifths">
               <div class="control">
                 <input class="input" type="text" placeholder="ค้นหาลูกค้า" />
+                
               </div>
             </div>
             <div class="column"><a class="button is-primary">ค้นหา</a></div>
@@ -70,8 +74,8 @@
 
           <br />
 
-          <div class="columns is-centered">
-            <table class="table is-responsive is-bordered is-fullwidth">
+          <div class="columns is-centered ">
+            <table class="table is-responsive is-bordered is-fullwidth  ">
               <thead>
                 <tr>
                   <th>ลำดับ</th>
@@ -85,7 +89,6 @@
                   <td>1</td>
                   <td>นิติพล ชิงธงไชย</td>
                   <td>095-5528406</td>
-
                   <td>
                     <div class="button has-text-link"><u> คลิก </u></div>
                   </td>
@@ -110,16 +113,16 @@
 
           <div class="columns">
             <div class="column">
-              <label class="label">ประเภทการทำธุรกรรม</label>
+              <label class="label  is-size-6 ">ประเภทการทำธุรกรรม</label>
             </div>
 
-            <div class="column is-two-thirds">
+            <div class="column is-two-thirds ">
               <div class="select ">
                 <select>
                   <option>ลูกค้าซื้อรถ</option>
                   <option>ลูกค้าขายรถ</option>
+                  <option>ลูกค้าซ่อมรถ </option>
                   <option>ลูกค้าต่อทะเบียน</option>
-                  <option>ลูกค้าซ่อมรถ</option>
                 </select>
               </div>
             </div>
@@ -135,13 +138,13 @@
               <div class="column is-narrow">
                   <div class="field is-grouped ">
                       <div class="control  has-text-centered">
-                        <button class="button is-link">ยืนยัน</button>
+                        <button class="button is-link  is-medium is-fullwidth">ยืนยัน</button>
                       </div>
         
         
         
                       <div class="control has-text-centered">
-                        <button class="button is-danger">ยกเลิก</button>
+                        <button class="button is-danger  is-medium is-fullwidth">ยกเลิก</button>
                       </div>
                     </div>
                     <br>
@@ -157,12 +160,13 @@
         &nbsp; &nbsp; &nbsp; &nbsp;
 
         <div class="column has-background-grey-lighter">
+          <br>
           <h1 class="title">ลูกค้าใหม่(สมัครสมาชิก)</h1>
           <div class="columns is-centered">
             <div class="column is-four-fifths ">
               <label class="label">ชื่อจริง - นามสกุล</label>
               <div class="control">
-                <input class="input" type="text" placeholder="ชื่อจริง - นามสกุล" />
+                <input class="input" type="text"  />
               </div>
             </div>
           </div>
@@ -171,15 +175,15 @@
             <div class="column is-four-fifths ">
               <label class="label"> บัตรประจำตัวประชาชน </label>
               <div class="control">
-                <input class="input" type="text" placeholder="บัตรประจำตัวประชาชน" />
+                <input class="input" type="text"  />
               </div>
             </div>
           </div>
           <div class="columns is-centered">
             <div class="column is-one-quarter">
-              <label class="label">วัน/เดือน/ปีเกิด</label>
+              <label class="label">วัน /เดือน /ปีเกิด</label>
               <div class="control">
-                <input class="input" type="text" placeholder="วัน/เดือน/ปี" />
+                <input class="input" type="text"  />
               </div>
             </div>
 
@@ -193,10 +197,10 @@
               </a>
             </div>
 
-            <div class="column is-one-third">
+            <div class="column is-one-third ">
               <label class="label">เบอร์ติดต่อ</label>
               <div class="control">
-                <input class="input" type="text" placeholder="09xxxxx" />
+                <input class="input" type="text"  />
               </div>
             </div>
           </div>
@@ -205,7 +209,7 @@
               <div class="field">
                 <label class="label">ที่อยู่</label>
                 <div class="control">
-                  <textarea class="textarea" placeholder="ที่อยู๋"></textarea>
+                  <textarea class="textarea" ></textarea>
                 </div>
               </div>
             </div>
@@ -216,13 +220,13 @@
             <div class="column is-narrow">
                 <div class="field is-grouped ">
                     <div class="control  has-text-centered">
-                      <button class="button is-link">ยืนยัน</button>
+                      <button class="button is-link  is-medium is-fullwidth">ยืนยัน</button>
                     </div>
       
       
       
                     <div class="control has-text-centered">
-                      <button class="button is-danger">ยกเลิก</button>
+                      <button class="button is-danger  is-medium is-fullwidth">ยกเลิก</button>
                     </div>
                   </div>
                   <br>
